@@ -9,16 +9,16 @@ namespace Auto606
         public bool HasValidArguments(string[] args)
         {
             bool valid = false;
-
+            
 
 
 
 
             return valid; 
         }
-        public static void Main(string[] args)
+        private void Start(string[] args)
         {
-            switch(this.HasValidArguments(args))
+            switch (this.HasValidArguments(args))
             {
                 case true:
                     Application.Init();
@@ -27,9 +27,14 @@ namespace Auto606
                     Application.Run();
                     break;
                 case false:
-                    
+
                     break;
             }
+        }
+        public static void Main(string[] args)
+        {
+            MainClass main = new MainClass();
+            main.Start(args);
         }
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic; 
 namespace Facturas
 {
-    static class Null { public static string Value = "NULL"; }
+    static class Null { public const string Value = "NULL"; }
     public class Servicio
     {
            public long Id { get; set; }
