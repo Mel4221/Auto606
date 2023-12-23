@@ -1,0 +1,9 @@
+/home/mel/Documents/csharp/Auto606/obj/x86/Debug/Auto606.csproj.CoreCompileInputs.cache
+/home/mel/Documents/csharp/Auto606/bin/Debug/Auto606.exe
+/home/mel/Documents/csharp/Auto606/bin/Debug/Auto606.pdb
+/home/mel/Documents/csharp/Auto606/bin/Debug/Facturas.dll
+/home/mel/Documents/csharp/Auto606/bin/Debug/Facturas.pdb
+/home/mel/Documents/csharp/Auto606/obj/x86/Debug/Auto606.csproj.AssemblyReference.cache
+/home/mel/Documents/csharp/Auto606/obj/x86/Debug/Auto606.csproj.CopyComplete
+/home/mel/Documents/csharp/Auto606/obj/x86/Debug/Auto606.exe
+/home/mel/Documents/csharp/Auto606/obj/x86/Debug/Auto606.pdb

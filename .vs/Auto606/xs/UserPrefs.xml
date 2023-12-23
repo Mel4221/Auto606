@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{ED9C0090-B43D-4810-BB4E-6FD9C0C761B5}|Default">
+  <MonoDevelop.Ide.ItemProperties.Auto606 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Program.cs" Line="14" Column="31" />
+      <File FileName="Facturas/Factura.cs" Line="9" Column="22" />
+      <File FileName="VentanaPrincipal.cs" Line="2" Column="16" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Auto606" expanded="True">
+            <Node name="Auto606" expanded="True">
+              <Node name="UserInterface" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="Facturas" expanded="True" />
+            <Node name="Init" expanded="True">
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

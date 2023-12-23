@@ -1,0 +1,6 @@
+/home/mel/Documents/csharp/Auto606/Facturas/bin/Debug/Facturas.dll
+/home/mel/Documents/csharp/Auto606/Facturas/bin/Debug/Facturas.pdb
+/home/mel/Documents/csharp/Auto606/Facturas/obj/Debug/Facturas.csproj.AssemblyReference.cache
+/home/mel/Documents/csharp/Auto606/Facturas/obj/Debug/Facturas.csproj.CoreCompileInputs.cache
+/home/mel/Documents/csharp/Auto606/Facturas/obj/Debug/Facturas.dll
+/home/mel/Documents/csharp/Auto606/Facturas/obj/Debug/Facturas.pdb

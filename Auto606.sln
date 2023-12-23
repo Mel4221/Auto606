@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auto606", "Auto606.csproj", "{ED9C0090-B43D-4810-BB4E-6FD9C0C761B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facturas", "Facturas\Facturas.csproj", "{CE5454CA-36B0-4368-A71D-4FEDE66A0F32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Init", "Init\Init.csproj", "{1050C3B5-46F2-49D3-B3AA-72DD926B39F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED9C0090-B43D-4810-BB4E-6FD9C0C761B5}.Debug|x86.ActiveCfg = Debug|x86
+		{ED9C0090-B43D-4810-BB4E-6FD9C0C761B5}.Debug|x86.Build.0 = Debug|x86
+		{ED9C0090-B43D-4810-BB4E-6FD9C0C761B5}.Release|x86.ActiveCfg = Release|x86
+		{ED9C0090-B43D-4810-BB4E-6FD9C0C761B5}.Release|x86.Build.0 = Release|x86
+		{CE5454CA-36B0-4368-A71D-4FEDE66A0F32}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CE5454CA-36B0-4368-A71D-4FEDE66A0F32}.Debug|x86.Build.0 = Debug|Any CPU
+		{CE5454CA-36B0-4368-A71D-4FEDE66A0F32}.Release|x86.ActiveCfg = Release|Any CPU
+		{CE5454CA-36B0-4368-A71D-4FEDE66A0F32}.Release|x86.Build.0 = Release|Any CPU
+		{1050C3B5-46F2-49D3-B3AA-72DD926B39F0}.Debug|x86.ActiveCfg = Debug|x86
+		{1050C3B5-46F2-49D3-B3AA-72DD926B39F0}.Debug|x86.Build.0 = Debug|x86
+		{1050C3B5-46F2-49D3-B3AA-72DD926B39F0}.Release|x86.ActiveCfg = Release|x86
+		{1050C3B5-46F2-49D3-B3AA-72DD926B39F0}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
