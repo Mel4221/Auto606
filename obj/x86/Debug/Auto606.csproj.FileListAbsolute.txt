@@ -7,3 +7,7 @@
 /home/mel/Documents/csharp/Auto606/obj/x86/Debug/Auto606.csproj.CopyComplete
 /home/mel/Documents/csharp/Auto606/obj/x86/Debug/Auto606.exe
 /home/mel/Documents/csharp/Auto606/obj/x86/Debug/Auto606.pdb
+/home/mel/Documents/csharp/Auto606/bin/Debug/Init.exe
+/home/mel/Documents/csharp/Auto606/bin/Debug/QuickTools.dll
+/home/mel/Documents/csharp/Auto606/bin/Debug/Init.pdb
+/home/mel/Documents/csharp/Auto606/bin/Debug/QuickTools.xml

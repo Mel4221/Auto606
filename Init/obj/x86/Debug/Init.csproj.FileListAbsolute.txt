@@ -3,3 +3,4 @@
 /home/mel/Documents/csharp/Auto606/Init/obj/x86/Debug/Init.csproj.CoreCompileInputs.cache
 /home/mel/Documents/csharp/Auto606/Init/obj/x86/Debug/Init.exe
 /home/mel/Documents/csharp/Auto606/Init/obj/x86/Debug/Init.pdb
+/home/mel/Documents/csharp/Auto606/Init/obj/x86/Debug/Init.csproj.AssemblyReference.cache
