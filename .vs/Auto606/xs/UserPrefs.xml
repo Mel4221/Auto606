@@ -1,12 +1,10 @@
 ﻿<Properties StartupConfiguration="{ED9C0090-B43D-4810-BB4E-6FD9C0C761B5}|Default">
   <MonoDevelop.Ide.ItemProperties.Auto606 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Facturas/Factura.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="VentanaPrincipal.cs">
     <Files>
-      <File FileName="Program.cs" Line="19" Column="9" />
-      <File FileName="VentanaPrincipal.cs" Line="12" Column="6" />
-      <File FileName="Auto606Settings.cs" Line="26" Column="10" />
-      <File FileName="Null.cs" Line="6" Column="33" />
-      <File FileName="Facturas/Factura.cs" Line="6" Column="26" />
+      <File FileName="Program.cs" Line="25" Column="16" />
+      <File FileName="Init/Program.cs" Line="22" Column="14" />
+      <File FileName="VentanaPrincipal.cs" Line="9" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,12 +12,7 @@
           <Node name="Auto606" expanded="True">
             <Node name="Auto606" expanded="True">
               <Node name="UserInterface" expanded="True" />
-            </Node>
-            <Node name="Facturas" expanded="True">
-              <Node name="Factura.cs" selected="True" />
-            </Node>
-            <Node name="Init" expanded="True">
-              <Node name="Properties" expanded="True" />
+              <Node name="VentanaPrincipal.cs" selected="True" />
             </Node>
           </Node>
         </State>

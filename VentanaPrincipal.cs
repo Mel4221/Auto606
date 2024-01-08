@@ -7,7 +7,9 @@ namespace Auto606
         public VentanaPrincipal() :
         base(Gtk.WindowType.Toplevel) => this.Build();
 
-
-
+        protected void OnFuncionAction1Activated(object sender, EventArgs e)
+        {
+            Console.WriteLine("Working...");
+        }
     }
 }

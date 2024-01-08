@@ -6,12 +6,52 @@
   <import>
     <widget-library name="../bin/Debug/Auto606.exe" internal="true" />
   </import>
-  <widget class="Gtk.Window" id="Auto606.VentanaPrincipal" design-size="400 300">
+  <widget class="Gtk.Window" id="Auto606.VentanaPrincipal" design-size="1229 698">
+    <action-group name="Default">
+      <action id="FuncionAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Funcion</property>
+        <property name="ShortLabel" translatable="yes">Funcion</property>
+      </action>
+      <action id="FuncionAction1">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Funcion</property>
+        <property name="ShortLabel" translatable="yes">Funcion</property>
+        <signal name="Activated" handler="OnFuncionAction1Activated" />
+      </action>
+      <action id="FuncionBAction">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Funcion B</property>
+        <property name="ShortLabel" translatable="yes">Funcion B</property>
+      </action>
+      <action id="Funcion3Action">
+        <property name="Type">Action</property>
+        <property name="Label" translatable="yes">Funcion 3</property>
+        <property name="ShortLabel" translatable="yes">Funcion 3</property>
+      </action>
+    </action-group>
     <property name="MemberName" />
     <property name="Title" translatable="yes">VentanaPrincipal</property>
     <property name="WindowPosition">CenterOnParent</property>
     <child>
-      <placeholder />
+      <widget class="Gtk.Fixed" id="VentanaContainer">
+        <property name="MemberName" />
+        <property name="HasWindow">False</property>
+        <child>
+          <widget class="Gtk.MenuBar" id="menubar1">
+            <property name="MemberName" />
+            <node name="__gtksharp_181_Stetic_Editor_ActionMenuBar" type="Menubar">
+              <node type="Menu" action="FuncionAction1" />
+              <node type="Menu" action="FuncionBAction" />
+              <node type="Menu" action="Funcion3Action" />
+            </node>
+          </widget>
+          <packing>
+            <property name="X">7</property>
+            <property name="Y">17</property>
+          </packing>
+        </child>
+      </widget>
     </child>
   </widget>
 </stetic-interface>

@@ -4,20 +4,66 @@ namespace Auto606
 {
 	public partial class VentanaPrincipal
 	{
+		private global::Gtk.UIManager UIManager;
+
+		private global::Gtk.Action FuncionAction;
+
+		private global::Gtk.Action FuncionAction1;
+
+		private global::Gtk.Action FuncionBAction;
+
+		private global::Gtk.Action Funcion3Action;
+
+		private global::Gtk.Fixed VentanaContainer;
+
+		private global::Gtk.MenuBar menubar1;
+
 		protected virtual void Build()
 		{
 			global::Stetic.Gui.Initialize(this);
 			// Widget Auto606.VentanaPrincipal
+			this.UIManager = new global::Gtk.UIManager();
+			global::Gtk.ActionGroup w1 = new global::Gtk.ActionGroup("Default");
+			this.FuncionAction = new global::Gtk.Action("FuncionAction", global::Mono.Unix.Catalog.GetString("Funcion"), null, null);
+			this.FuncionAction.ShortLabel = global::Mono.Unix.Catalog.GetString("Funcion");
+			w1.Add(this.FuncionAction, null);
+			this.FuncionAction1 = new global::Gtk.Action("FuncionAction1", global::Mono.Unix.Catalog.GetString("Funcion"), null, null);
+			this.FuncionAction1.ShortLabel = global::Mono.Unix.Catalog.GetString("Funcion");
+			w1.Add(this.FuncionAction1, null);
+			this.FuncionBAction = new global::Gtk.Action("FuncionBAction", global::Mono.Unix.Catalog.GetString("Funcion B"), null, null);
+			this.FuncionBAction.ShortLabel = global::Mono.Unix.Catalog.GetString("Funcion B");
+			w1.Add(this.FuncionBAction, null);
+			this.Funcion3Action = new global::Gtk.Action("Funcion3Action", global::Mono.Unix.Catalog.GetString("Funcion 3"), null, null);
+			this.Funcion3Action.ShortLabel = global::Mono.Unix.Catalog.GetString("Funcion 3");
+			w1.Add(this.Funcion3Action, null);
+			this.UIManager.InsertActionGroup(w1, 0);
+			this.AddAccelGroup(this.UIManager.AccelGroup);
 			this.Name = "Auto606.VentanaPrincipal";
 			this.Title = global::Mono.Unix.Catalog.GetString("VentanaPrincipal");
 			this.WindowPosition = ((global::Gtk.WindowPosition)(4));
+			// Container child Auto606.VentanaPrincipal.Gtk.Container+ContainerChild
+			this.VentanaContainer = new global::Gtk.Fixed();
+			this.VentanaContainer.Name = "VentanaContainer";
+			this.VentanaContainer.HasWindow = false;
+			// Container child VentanaContainer.Gtk.Fixed+FixedChild
+			this.UIManager.AddUiFromString("<ui><menubar name=\'menubar1\'><menu name=\'FuncionAction1\' action=\'FuncionAction1\'/" +
+					"><menu name=\'FuncionBAction\' action=\'FuncionBAction\'/><menu name=\'Funcion3Action" +
+					"\' action=\'Funcion3Action\'/></menubar></ui>");
+			this.menubar1 = ((global::Gtk.MenuBar)(this.UIManager.GetWidget("/menubar1")));
+			this.menubar1.Name = "menubar1";
+			this.VentanaContainer.Add(this.menubar1);
+			global::Gtk.Fixed.FixedChild w2 = ((global::Gtk.Fixed.FixedChild)(this.VentanaContainer[this.menubar1]));
+			w2.X = 7;
+			w2.Y = 17;
+			this.Add(this.VentanaContainer);
 			if ((this.Child != null))
 			{
 				this.Child.ShowAll();
 			}
-			this.DefaultWidth = 400;
-			this.DefaultHeight = 300;
+			this.DefaultWidth = 1229;
+			this.DefaultHeight = 698;
 			this.Show();
+			this.FuncionAction1.Activated += new global::System.EventHandler(this.OnFuncionAction1Activated);
 		}
 	}
 }
